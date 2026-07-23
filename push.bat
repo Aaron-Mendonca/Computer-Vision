@@ -1,11 +1,16 @@
 @echo off
-
-set /p msg=Enter commit message:
-
+echo Adding files...
 git add .
+
+echo.
+set /p msg=Enter commit message: 
+
 git commit -m "%msg%"
+
+echo.
+echo Pushing to GitHub...
 git push
 
 echo.
-echo Upload Complete!
+echo Done!
 pause
