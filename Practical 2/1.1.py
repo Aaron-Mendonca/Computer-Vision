@@ -1,7 +1,7 @@
 import cv2 as cv
 
-img1 = cv.imread("image1.jpg")
-img2 = cv.imread("image2.jpg")
+img1 = cv.imread("1stitch.png")
+img2 = cv.imread("2stitch.png")
 
 stitcher = cv.Stitcher_create()
 
