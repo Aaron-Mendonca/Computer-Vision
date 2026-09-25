@@ -6,7 +6,7 @@ import numpy as np
 reader = easyocr.Reader(['en'])
 
 # Read image
-image = cv2.imread("text-detection-feature.jpg")
+image = cv2.imread("text-detection-feature.jpeg")
 
 # Detect and recognize text
 results = reader.readtext(image)
