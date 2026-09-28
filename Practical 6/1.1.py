@@ -109,5 +109,3 @@ cap.release()
 
 # Close all OpenCV windows
 cv2.destroyAllWindows()
-
-print("Tracking stopped. Exiting program.")
