@@ -56,3 +56,5 @@ cv2.imshow("Affine", affine)
 cv2.imshow("Perspective", perspective)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+print("Image transformations completed successfully.")
